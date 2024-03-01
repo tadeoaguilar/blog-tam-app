@@ -1,13 +1,19 @@
-import Footer from "@/app/_components/footer";
+'use client'
+import Footer from "@/app/components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import { useContext, useState } from "react";
+import { ThemeContext } from "@/lib/context";
+
+// Replace "@/path/to/theme-context" with the actual path to the module.
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+
+ const metadata: Metadata = {
   title: `Next.js Blog Example with ${CMS_NAME}`,
   description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
   openGraph: {
@@ -20,8 +26,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [theme, setTheme] = useState("");
   return (
-    <html lang="en">
+    <ThemeContext.Provider value={theme}>
+    
+    <html className={theme} lang="en">
       <head>
         <link
           rel="apple-touch-icon"
@@ -56,9 +65,14 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className={inter.className}>
+        
+        <button onClick={() => { 
+                theme==="dark"? setTheme("light") : setTheme("dark")}
+                }>{theme}</button>  
         <div className="min-h-screen">{children}</div>
-        <Footer />
+        
       </body>
     </html>
+    </ThemeContext.Provider>
   );
 }

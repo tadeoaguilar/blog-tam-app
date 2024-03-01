@@ -1,25 +1,34 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "selector",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      "light-primary": "#A40024",
+      "light-on-primary": "#FFFFFF",
+      "light-primary-container": "#DD2C41",
+      "light-on-primary-container": "#FFFFFF",
+      "light-on-primary-surface": "#FFF8F7",
+
+      "dark-primary": "#FFB3B2",
+      "dark-on-primary": "#680013",
+      "dark-primary-container": "#92001F",
+      "dark-on-primary-container": "#FFFFFF",
+      "dark-on-primary-surface": "#1E0F0F",
+      
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors: {
-        "accent-1": "#FAFAFA",
-        "accent-2": "#EAEAEA",
-        "accent-7": "#333",
-        success: "#0070f3",
-        cyan: "#79FFE1",
-      },
+     
       spacing: {
         28: "7rem",
       },
@@ -40,4 +49,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
