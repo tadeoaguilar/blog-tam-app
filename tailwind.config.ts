@@ -10,12 +10,12 @@ const config: Config = {
   theme: {
     colors: {
       "light-primary": "#DD2C41",
-      "light-on-primary": "#FFFFFF",
+      "light-on-primary": "#FFF8F7",
       "light-primary-container": "#DD2C41",
-      "light-on-primary-container": "#FFFFFF",
+      "light-on-primary-container": "#FFF8F7",
       "light-on-primary-surface": "#FFF8F7",
 
-      "dark-primary": "#FFFFFF",
+      "dark-primary": "#FFF8F7",
       "dark-on-primary": "#DD2C41",
       "dark-primary-container": "#DD2C41",
       "dark-on-primary-container": "#DD2C41",
