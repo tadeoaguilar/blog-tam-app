@@ -65,10 +65,10 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className= {`${inter.className} w-full flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary `} >
-        
-        <button className="bg-light-on-primary-surface text-light-primary dark:text-dark-primary dark:bg-dark-on-primary-surface" onClick={() => { 
+      <button className="bg-light-on-primary-surface text-light-primary dark:text-dark-primary dark:bg-dark-on-primary-surface" onClick={() => { 
                 theme==="dark"? setTheme("light") : setTheme("dark")}
                 }> {theme}</button>  
+
         <div className="min-h-screen">{children}</div>
         
       </body>

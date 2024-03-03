@@ -9,17 +9,17 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      "light-primary": "#A40024",
+      "light-primary": "#DD2C41",
       "light-on-primary": "#FFFFFF",
       "light-primary-container": "#DD2C41",
       "light-on-primary-container": "#FFFFFF",
       "light-on-primary-surface": "#FFF8F7",
 
-      "dark-primary": "#FFB3B2",
-      "dark-on-primary": "#680013",
-      "dark-primary-container": "#92001F",
-      "dark-on-primary-container": "#FFFFFF",
-      "dark-on-primary-surface": "#1E0F0F",
+      "dark-primary": "#FFFFFF",
+      "dark-on-primary": "#DD2C41",
+      "dark-primary-container": "#DD2C41",
+      "dark-on-primary-container": "#DD2C41",
+      "dark-on-primary-surface": "#DD2C41",
       
     },
     screen:{

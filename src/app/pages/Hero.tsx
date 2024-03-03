@@ -6,7 +6,7 @@ import HeroCard from '../components/ui/HeroCard'
 const Hero = (props: {message:String}) => {
   
   return (
-    <section id="HERO" className='flex flex-col gap-6 justify-center items-center px-2 py-2'>
+    <section id="HERO" className='flex flex-col w-screen gap-6 justify-center items-center px-9 py-2 '>
       <NavBar />
       <HeroCard />
     </section>
