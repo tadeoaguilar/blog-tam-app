@@ -2,7 +2,7 @@
 import Footer from "@/app/components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 import "./globals.css";
 import { useContext, useState } from "react";
@@ -10,7 +10,7 @@ import { ThemeContext } from "@/lib/context";
 
 // Replace "@/path/to/theme-context" with the actual path to the module.
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Poppins({weight: ["400", "500", "600", "700"], subsets: ["latin"]});
 
 
  const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [theme, setTheme] = useState("");
+  const [theme, setTheme] = useState("light");
   return (
     <ThemeContext.Provider value={theme}>
     
@@ -64,11 +64,11 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={inter.className}>
+      <body className= {`${inter.className} w-full flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary `} >
         
-        <button onClick={() => { 
+        <button className="bg-light-on-primary-surface text-light-primary dark:text-dark-primary dark:bg-dark-on-primary-surface" onClick={() => { 
                 theme==="dark"? setTheme("light") : setTheme("dark")}
-                }>{theme}</button>  
+                }> {theme}</button>  
         <div className="min-h-screen">{children}</div>
         
       </body>

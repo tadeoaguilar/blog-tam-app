@@ -22,6 +22,11 @@ const config: Config = {
       "dark-on-primary-surface": "#1E0F0F",
       
     },
+    screen:{
+      'sm': '599px',
+      'md': '1239px',
+      'lg': '1440px',      
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
