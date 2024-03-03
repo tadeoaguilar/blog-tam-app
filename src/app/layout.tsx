@@ -27,6 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const [theme, setTheme] = useState("light");
+  
   return (
     <ThemeContext.Provider value={theme}>
     
