@@ -1,18 +1,25 @@
-import React, { FC, PropsWithChildren, createContext } from 'react';
-import { useState } from 'react';
+import  {  PropsWithChildren, createContext, useState } from 'react';
 
-interface IThemeContext {
+
+interface ITheme{
     theme: string ;
-    setTheme: React.Dispatch<React.SetStateAction<IThemeContext['theme']>>;
+    
 }
+export type ThemeContextType = {
+    theme: string;
+    updateTheme: (item:string) => void;
+  };
 
-const ThemeContext = createContext<IThemeContext | null>(null);
+const ThemeContext = createContext<ThemeContextType | null>(null )
 
-const ThemeContextProvider = ({children}:React.PropsWithChildren) => {
-    const [theme, setTheme] = useState<IThemeContext['theme']>("light");
+const ThemeContextProvider = ({children}:PropsWithChildren) => {
+    const [theme, setTheme] = useState<ITheme['theme']>("light");
+    const updateTheme = (item:ITheme['theme']) => {
+        setTheme(item);
+      }
  
     return(<>
-        <ThemeContext.Provider value={ {theme:theme, setTheme: setTheme}  }>
+        <ThemeContext.Provider value={ {theme:theme, updateTheme: updateTheme}  }>
             {children}
         </ThemeContext.Provider>
     </>)

@@ -1,4 +1,4 @@
-import Container from "@/app/components/container";
+
 import { HeroPost } from "@/app/components/hero-post";
 import { Intro } from "@/app/components/intro";
 import { MoreStories } from "@/app/components/more-stories";
@@ -13,10 +13,10 @@ export default function Index() {
 
   return (
     <main>
-      <Container>
-        <Hero  message="Hello World"/>
+      
+        <Hero />
        
-      </Container>
+      
     </main>
   );
 }

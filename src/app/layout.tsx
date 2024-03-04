@@ -3,11 +3,11 @@ import Footer from "@/app/components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-
+import { ThemeContextProvider } from "@/lib/context";
 import "./globals.css";
-import { use, useContext, useEffect, useState } from "react";
-import { ThemeContext, ThemeContextProvider } from "@/lib/context";
-import { set } from "date-fns";
+
+
+import Container from "./components/ui/Container";
 
 // Replace "@/path/to/theme-context" with the actual path to the module.
 
@@ -27,13 +27,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const contextValue = useContext(ThemeContext);
-  
+
+
 
   return (
     <ThemeContextProvider >
-    
-    <html className={contextValue?.theme} lang="en">
+    <Container>
+   
       <head>
         <link
           rel="apple-touch-icon"
@@ -68,15 +68,13 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className= {`${inter.className} w-full flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary `} >
-      <button className="bg-light-on-primary-surface text-light-primary dark:text-dark-primary dark:bg-dark-on-primary-surface" onClick={() => { 
-                console.log("theme FE",contextValue?.theme)
-                contextValue?.theme==="dark"? contextValue.setTheme("light") : contextValue?.setTheme("dark")}
-                }> new: {contextValue?.theme}</button>  
+    
 
         <div className="min-h-screen">{children}</div>
         
       </body>
-    </html>
+    </Container>
     </ThemeContextProvider>
+   
   );
 }
