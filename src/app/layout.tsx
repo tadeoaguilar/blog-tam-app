@@ -31,7 +31,7 @@ export default function RootLayout({
 
 
   return (
-    <ThemeContextProvider >
+    <ThemeContextProvider>  
     <Container>
    
       <head>

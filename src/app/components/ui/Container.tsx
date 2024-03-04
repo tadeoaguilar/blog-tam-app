@@ -9,13 +9,14 @@ const Container = ({ children }: Props) => {
   const theme = useContext(ThemeContext);
   
   return (
-    
+
         <html className={theme?.theme}>
               {children}
         </html>
-       
+
   );
     
 };
+
 
 export default Container;
