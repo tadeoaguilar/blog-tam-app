@@ -6,11 +6,11 @@ type Props = {
 };
 
 const Container = ({ children }: Props) => {
-  const theme = useContext(ThemeContext);
+  const themeContext = useContext(ThemeContext);
   
   return (
 
-        <html className={theme?.theme}>
+        <html className={themeContext?.theme}>
               {children}
         </html>
 
