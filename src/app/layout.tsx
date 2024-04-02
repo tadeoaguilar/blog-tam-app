@@ -3,6 +3,7 @@ import Footer from "@/app/components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+
 import { ThemeContextProvider } from "@/lib/context";
 import "./globals.css";
 

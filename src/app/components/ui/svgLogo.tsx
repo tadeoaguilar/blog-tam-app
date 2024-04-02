@@ -7,13 +7,13 @@ import classNames from 'classnames'
 export const SVGLogo = () => 
 
 {
-  const logoCSS = "stroke-light-primary stroke-1 dark:stroke-dark-primary"
-  const circleCSS = "stroke-light-primary stroke-1 dark:stroke-light-primary dark:stroke-dark-primary"
+  const logoCSS = "stroke-light-primary stroke-1 dark:stroke-dark-primary "
+  const circleCSS = "stroke-light-primary stroke-1 dark:stroke-dark-primary dark:stroke-dark-primary dark:stroke-1"
   const rectCSS="stroke-light-primary stroke-0 fill-none dark:stroke-dark-primary"
   const textCSS = "text-light-primary dark:text-dark-primary"
     return (
       
-      <svg className="w-40 border border-light-on-primary" viewBox="0 0 420 100" >
+      <svg className="w-40" viewBox="0 0 420 100" >
           <g id="linesLogo">
           
               <line className={logoCSS} x1="30.45" y1="24.52" x2="30.49" y2="34.74"/>
