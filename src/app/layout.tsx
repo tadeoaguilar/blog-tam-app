@@ -9,6 +9,7 @@ import "./globals.css";
 
 
 import Container from "./components/ui/Container";
+import { useEffect } from "react";
 
 // Replace "@/path/to/theme-context" with the actual path to the module.
 

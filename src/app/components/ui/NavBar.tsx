@@ -22,7 +22,8 @@ const NavBar = () => {
          
         
              </div>
-             <SVGLogo/>
+            
+             <SVGLogo/> 
             <div className="flex flex-row items-center gap-1">
             
             <button 
