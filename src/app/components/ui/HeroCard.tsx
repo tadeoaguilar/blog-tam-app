@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { HEROLogo } from './heroLogo'
 const HeroCard = () => {
   return (
     <section className='w-full  flex flex-col items-center  '>
@@ -14,6 +14,7 @@ const HeroCard = () => {
             <button className='bg-primary text-white rounded-md p-2 mt-6 '>Get Started</button>
             <button className='bg-primary text-white rounded-md p-2 mt-6'>Get Started</button>
         </div>
+        <HEROLogo />
     </section>
   )
 }
