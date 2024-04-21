@@ -5,6 +5,7 @@ import { SVGIcon } from '../components/ui/SVGIcon'
 import Image from 'next/image'
 import NavBar from '../components/ui/NavBar'
 import HeroCard from '../components/ui/HeroCard'
+
 const HeroV2 = () => {
   const theme = useContext(ThemeContext); //It needs to be inside the component and inside the Context Provider
   
@@ -12,7 +13,7 @@ const HeroV2 = () => {
     
     <section id="HERO" >
       <div className='h-screen w-screen   '>
-        <div className="my-auto mx-auto w-2/5">
+        <div className="my-auto mx-auto w-2/5 p-4">
         <svg className='mx-auto' viewBox='0 0 605 605' xmlns="http://www.w3.org/2000/svg">
         <path className="line-svg" d="M 0 600 L 600 100"   />
         <path className="line-svg-1" d="M 100 600 L 600 100"   />

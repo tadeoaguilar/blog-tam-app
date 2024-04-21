@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
---primary-stroke: #0CF25D;
+
 
 .shape {
     fill: transparent;
-    stroke: blue;
+    stroke: #034159;
     stroke-width: 8px;
     border: 5px solid black;
     stroke-dasharray: 140 540;
@@ -34,7 +34,7 @@
 }
 .line-svg {    
     stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke-width: 4px;      
     animation: animate 4s linear 1;
 }
 
@@ -62,33 +62,33 @@
 }
 
 .line-svg-1 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-1 4s linear 1;
 }
 .line-svg-2 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-2 4s linear 1;
 }
 .line-svg-3 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-3 4s linear 1;
 }
 .line-svg-4 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-4 4s linear 1;
 }
 .line-svg-5 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-5 4s linear 1;
 }
 .line-svg-6 {    
-    stroke: var(--primary-stroke);
-    stroke-width: 3px;      
+    stroke: #034159;
+    stroke-width: 4px;      
     animation: animate-6 4s ease-in-out 1 ;
 }
 
