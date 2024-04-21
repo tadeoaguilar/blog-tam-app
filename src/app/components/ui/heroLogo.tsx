@@ -1,7 +1,7 @@
 export const HEROLogo = () => 
 
 {
-  const logoCSS = "fill-light-primary dark:fill-dark-primary hover:fill-dark-primary dark:hover:fill-light-primary"
+  const logoCSS = "fill-light-primary dark:fill-dark-primary hover:fill-dark-primary dark:hover:fill-light-primary "
 
     return (
       <>
