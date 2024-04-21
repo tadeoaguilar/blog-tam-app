@@ -1,3 +1,201 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+--primary-stroke: #0CF25D;
+
+.shape {
+    fill: transparent;
+    stroke: blue;
+    stroke-width: 8px;
+    border: 5px solid black;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -470;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 320px;
+}
+.svg-wrapper:hover .shape{
+    stroke-width: 8x;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+.line-wrapper {
+    margin:auto;
+    width: 640px;
+    height: 960px;
+    
+    
+}
+.line-svg {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate 4s linear 1;
+}
+
+
+
+@keyframes animate {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+        d:path("M 600 600 L 600 100")
+        
+    }
+    100%{
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 0 600 L 600 100")
+   
+    
+    }
+    
+    
+
+}
+
+.line-svg-1 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-1 4s linear 1;
+}
+.line-svg-2 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-2 4s linear 1;
+}
+.line-svg-3 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-3 4s linear 1;
+}
+.line-svg-4 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-4 4s linear 1;
+}
+.line-svg-5 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-5 4s linear 1;
+}
+.line-svg-6 {    
+    stroke: var(--primary-stroke);
+    stroke-width: 3px;      
+    animation: animate-6 4s ease-in-out 1 ;
+}
+
+
+@keyframes animate-1 {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+        d:path("M 600 600 L 600 100")
+    
+    }
+    100%{
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 100 600 L 600 100")
+    
+   
+    
+   
+}}
+    @keyframes animate-2 {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+        d:path("M 600 600 L 600 100")
+        
+    }
+    100%{
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 200 600 L 600 100")
+   
+    
+    }
+}
+    @keyframes animate-3 {
+        0%{
+            stroke-width: 0px;
+            stroke-dasharray: 10 1000;
+            stroke-dashoffset: -775; 
+            d:path("M 600 600 L 600 100")
+            
+        }
+        100%{
+            stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        stroke-width: 4px;
+        d:path("M 300 600 L 600 100")
+       
+        
+        }
+}
+@keyframes animate-4 {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+        d:path("M 600 600 L 600 100")
+        
+    }
+    100%{
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 400 600 L 600 100")
+   
+    
+    }
+    
+}
+@keyframes animate-5 {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+        d:path("M 600 600 L 600 100")
+        
+    }
+    100%{
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 500 600 L 600 100")
+   
+    
+    }
+}
+@keyframes animate-6 {
+    0%{
+        stroke-width: 0px;
+        stroke-dasharray: 10 1000;
+        stroke-dashoffset: -775; 
+       
+        
+    }
+ 
+   
+    100% {
+        stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    stroke-width: 4px;
+    d:path("M 600 0 L 600 600 M 600 600 L 0 600 M 0 600 L 0 100 M 0 100 L 0 0 M 0 0 L 600  0 " )
+   
+    
+    }
+}

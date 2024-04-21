@@ -2,7 +2,7 @@
 import Footer from "@/app/components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 
 import { ThemeContextProvider } from "@/lib/context";
 import "./globals.css";
@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 // Replace "@/path/to/theme-context" with the actual path to the module.
 
-const inter = Poppins({weight: ["400", "500", "600", "700"], subsets: ["latin"]});
+const inter = Roboto({weight: ["400", "500", "700", "900"], subsets: ["latin"]});
 
 
  const metadata: Metadata = {

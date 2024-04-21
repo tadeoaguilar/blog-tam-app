@@ -4,8 +4,29 @@ export const HEROLogo = () =>
   const logoCSS = "fill-light-primary dark:fill-dark-primary hover:fill-dark-primary dark:hover:fill-light-primary"
 
     return (
-      
+      <>
+
+      <div className="line-wrapper">
+      <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <line className="line-svg"  x1={0} y1={0} x2={320} y2={320} height="60" width="320"/>
+    
+
+        </svg>
+      </div>
+
+<div className="svg-wrapper hover:svg-hover">
+        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect className="shape hover:svg-hover" height="60" width="320" />
+    
+
+        </svg>
+
+    </div>
+
+
         <svg id="Hero" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768">
+
+
   <g id="Layer_3" data-name="Layer 3">
     <rect className={logoCSS} y="2.93" width="18.4" height="13"/>
     <rect className={logoCSS} y="18.93" width="18.4" height="13"/>
@@ -755,5 +776,6 @@ export const HEROLogo = () =>
   </g>
 
       </svg>
+      </>
     )
 }

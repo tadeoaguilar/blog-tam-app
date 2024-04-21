@@ -20,6 +20,9 @@ const config: Config = {
       "dark-primary-container": "#DD2C41",
       "dark-on-primary-container": "#DD2C41",
       "dark-on-primary-surface": "#DD2C41",
+
+      "green-primary": "#025951",
+      "green-accent": "#0CF25D"
       
     },
     screen:{

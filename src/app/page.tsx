@@ -3,7 +3,7 @@ import { HeroPost } from "@/app/components/hero-post";
 import { Intro } from "@/app/components/intro";
 import { MoreStories } from "@/app/components/more-stories";
 import { getAllPosts } from "../lib/api";
-import Hero from "./pages/Hero";
+import Hero from "./pages/HeroV2";
 export default function Index() {
   const allPosts = getAllPosts();
 
