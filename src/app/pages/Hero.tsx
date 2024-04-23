@@ -11,7 +11,7 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-full flex flex-col  gap-6  items-center  '>
+    <section id="HERO" className='w-full flex flex-col  gap-6  items-center'>
    
 
         <HEROLogo />
