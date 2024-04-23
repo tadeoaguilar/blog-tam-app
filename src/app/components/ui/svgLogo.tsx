@@ -7,9 +7,9 @@ import classNames from 'classnames'
 export const SVGLogo = () => 
 
 {
-  const logoCSS = "stroke-light-primary stroke-1 dark:stroke-dark-primary "
-  const circleCSS = "stroke-light-primary stroke-1 dark:stroke-dark-primary dark:stroke-dark-primary dark:stroke-1"
-  const rectCSS="stroke-light-primary stroke-0 fill-none dark:stroke-dark-primary"
+  const logoCSS = " stroke-1 dark:stroke-light-primary stroke-dark-primary "
+  const circleCSS = " stroke-1 dark:stroke-dark-primary dark:stroke-light-primary stroke-dark-primary dark:stroke-1"
+  const rectCSS=" stroke-0 fill-none dark:stroke-light-primary stroke-dark-primary"
   const textCSS = "text-light-primary dark:text-dark-primary"
     return (
       

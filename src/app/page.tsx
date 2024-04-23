@@ -1,9 +1,6 @@
 
-import { HeroPost } from "@/app/components/hero-post";
-import { Intro } from "@/app/components/intro";
-import { MoreStories } from "@/app/components/more-stories";
 import { getAllPosts } from "../lib/api";
-import Hero from "./pages/HeroV2";
+import Hero from "./pages/Hero";
 export default function Index() {
   const allPosts = getAllPosts();
 
@@ -12,7 +9,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main>
+    <main >
       
         <Hero />
        

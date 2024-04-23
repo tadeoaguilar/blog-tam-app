@@ -1,12 +1,12 @@
 'use client'
-import Footer from "@/app/components/footer";
+
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 
 import { ThemeContextProvider } from "@/lib/context";
 import "./globals.css";
-
+import { HEROLogo } from './components/ui/heroLogo'
 
 import Container from "./components/ui/Container";
 import { useEffect } from "react";
@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className= {`${inter.className} w-full flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary `} >
+      <body className= {`${inter.className}  flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary`} >
     
 
         <div className="min-h-screen">{children}</div>
