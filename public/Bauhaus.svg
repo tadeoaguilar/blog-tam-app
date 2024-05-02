@@ -1,28 +1,4 @@
-'use client'
-
-import { useEffect, useState } from "react"
-import Image from "next/image"
-export const HEROLogo = () => 
-
-
-  {
-    const [widthCSS, setwidthCSS] = useState(1024)
-    const [heightCSS, setHeightCSS] = useState(1024)
-    useEffect(()=>{
-    setwidthCSS(window.innerWidth)
-    setHeightCSS(window.innerHeight)
-    console.log(window.innerWidth)
-  })
-      return (
-        <>
-          <>{`${widthCSS} y ${heightCSS}  `}</>
-
-
-
-
-   
-          <div className="relative w-3/5 h-3/5 ">
-         
+<?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 802.9 603.7">
   <g>
     <path d="M735.31,501.88c0,15.18-4.64,29.29-12.6,40.96l-54.42-40.82h.33v-72.75c37.35,3.13,66.69,34.45,66.69,72.61Z" fill="#034159" stroke-width="0"/>
@@ -46,9 +22,3 @@ export const HEROLogo = () =>
     <polyline points="1.2 1.6 90.51 68.6 90.86 68.86 91.01 68.98 167.7 126.5 207.58 156.41 279.12 210.08 468.16 351.89 606.27 455.5 668.29 502.02 722.71 542.84 801.7 602.1" fill="none" stroke="#0cf25d" stroke-miterlimit="10" stroke-width="4"/>
   </g>
 </svg>
-          </div>
-
-        
-        </>
-      )
-  }
