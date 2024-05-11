@@ -14,7 +14,7 @@ export const HEROLogo = () =>
     console.log(window.innerWidth)
   })
       return (
-        <div className="absolute top-11 h-2/3">
+        <div className="absolute top-11 h-2/3 w-2/3">
             <Image 
               src="/Brain03.png"
               alt="Brain Image"
