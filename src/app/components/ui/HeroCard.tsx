@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroCard = () => {
   return (
-    <section className='absolute  z-20 w-full  flex flex-col items-center  dark:text-dark-on-primary text-light-on-primary'>
+    <section className='    flex flex-col items-center  dark:text-light-on-primary text-dark-on-primary'>
         <h1 className='py-16 tracking-widest  text-7xl'>CLUSTER 44</h1>
         <p className='text-center leading-7  '>Product
         A web framework for Rust that makes it simple to write <span className='font-extrabold'>fast, Type-safe, secure </span>, web applications with incredible usability, productivity and performance.        

@@ -12,7 +12,7 @@ const NavBar = () => {
   
   return (
     
-        <nav className="  absolute  z-30 flex flex-row w-4/5  justify-between fill-dark-primary dark:fill-light-primary">
+        <nav className="  absolute  z-30 flex flex-row w-4/5  justify-between  dark:fill-dark-primaryfill-light-primary">
           <div className=" flex flex-row items-center gap-4 ">
             <SVGIcon 
             class='w-6 h-6 '

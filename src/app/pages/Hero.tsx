@@ -11,15 +11,19 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-full flex flex-col  gap-6  items-center'>
+    <section id="HERO" className='w-full flex flex-col items-center'>
    
 
-        <HEROLogo />
+      
 
         
       <NavBar />
-      <HeroCard />     
-   
+      <div>
+      <HEROLogo />
+      </div>
+      <div>
+        <HeroCard />     
+      </div>
     </section>
     
   )
