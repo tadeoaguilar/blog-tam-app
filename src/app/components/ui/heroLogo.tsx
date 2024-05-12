@@ -20,7 +20,7 @@ export const HEROLogo = () =>
               <Image 
                 src= {widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
                 alt={widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
-                className=" border-[#FA5E36] border-8 rounded "
+                className=" border-[#FA5E36] border-8  blur-0 transition ease-in-out delay-500 bg-dark-on-primary  hover:blur-sm duration-500 "
                 fill={true}
                 priority={true}
                 placeholder="blur"
