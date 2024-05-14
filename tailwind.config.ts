@@ -26,6 +26,8 @@ const config: Config = {
       "dark-brown":"#8C4318",
       "dark-beige":"#F7C08A",
       "dark-blue":"#364A5E",
+      "white":"#FFFFFF",
+      "black":"#000000",
 
       "dark-primary": "#FFF8F7",
       "dark-on-primary": "#D92414",

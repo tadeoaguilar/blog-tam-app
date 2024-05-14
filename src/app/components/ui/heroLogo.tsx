@@ -16,7 +16,7 @@ export const HEROLogo = () =>
       return (
         <div  className="h-screen w-4/5 flex flex-row justify-center">
           
-          <div className="  w-2/3 h-2/3  bg-light-blue dark:bg-dark-blue ">
+          <div className="  w-2/3 h-2/3  bg-light-blue dark:bg-dark-blue  ">
             test
           </div>
           <div className="relative z-30  w-2/3 h-2/3  border-dark-blue dark:border-light-blue  border-8 rounded">
