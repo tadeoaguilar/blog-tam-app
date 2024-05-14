@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className= {`${inter.className}  flex flex-col mx-auto  bg-light-on-primary-surface dark:bg-dark-on-primary-surface text-light-primary dark:text-dark-primary`} >
+      <body className= {`${inter.className}  flex flex-col mx-auto  bg-light-beige dark:bg-dark-orange text-light-primary dark:text-dark-primary`} >
     
 
         <div className="min-h-screen">{children}</div>

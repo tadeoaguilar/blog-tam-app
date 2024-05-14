@@ -14,13 +14,17 @@ export const HEROLogo = () =>
     console.log(window.innerWidth)
   })
       return (
-        <div >
-          <div className="relative  w-[400px] h-[280px] top-14 border-[#84C1D9] border-8 rounded bg-[#FA5E36] ">
-            
+        <div  className="h-screen w-4/5 flex flex-row justify-center">
+          
+          <div className="  h-full w-full  ">
+            test
+          </div>
+          <div className="relative z-30  w-2/3 h-2/3  border-dark-blue dark:border-light-blue  border-8 rounded">
+
               <Image 
                 src= {widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
                 alt={widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
-                className=" border-[#FA5E36] border-8  blur-0 transition ease-in-out delay-500 bg-dark-on-primary  hover:blur-sm duration-500 "
+                className=" border-dark-orange dark:border-light-red border-8  blur-0 transition ease-in-out delay-500 bg-dark-on-primary  hover:blur-sm duration-500 "
                 fill={true}
                 priority={true}
                 placeholder="blur"

@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <main >
       
-        <Hero />
+      <Hero />
        
       
     </main>

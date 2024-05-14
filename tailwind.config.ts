@@ -15,6 +15,18 @@ const config: Config = {
       "light-on-primary-container": "#FFF8F7",
       "light-on-primary-surface": "#FFF8F7",
 
+      "light-orange":"#FA5E36",
+      "light-red":"#D92414",
+      "light-brown":"#BF7534",
+      "light-beige":"#EFBE86",
+      "light-blue":"#84C1D9",
+
+      "dark-orange":"#730707",
+      "dark-red":"#73262C",
+      "dark-brown":"#8C4318",
+      "dark-beige":"#F7C08A",
+      "dark-blue":"#364A5E",
+
       "dark-primary": "#FFF8F7",
       "dark-on-primary": "#D92414",
       "dark-primary-container": "#D92414",

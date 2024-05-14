@@ -11,19 +11,19 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-full flex flex-col items-center'>
+    <section id="HERO" className='w-full h-screen flex flex-col items-center bg-light-beige bg-opacity-10 '>
    
 
       
 
         
       <NavBar />
-      <div>
+      
       <HEROLogo />
-      </div>
-      <div>
-        <HeroCard />     
-      </div>
+
+      
+      {/*  <HeroCard />     */}
+      
     </section>
     
   )
