@@ -14,7 +14,7 @@ export const HEROLogo = () =>
     console.log(window.innerWidth)
   })
       return (
-        <div  className="h-4/5 w-4/5 flex flex-row justify-center items-center bg-light-beige bg-opacity-70 drop-shadow-xl rounded-2xl ">
+        <div  className="p-6 h-4/5 w-4/5 flex flex-row justify-center items-center bg-light-beige bg-opacity-70  dark:bg-dark-red  drop-shadow-xl rounded-2xl ">
           
           <div className="  w-2/3 h-2/3    ">
             test
