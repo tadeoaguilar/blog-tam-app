@@ -14,20 +14,13 @@ const NavBar = () => {
   return (
     
         <nav className="  flex flex-row w-4/5  justify-between  ">
-          <div className=" flex flex-row items-center gap-4 h-14  w-14 stroke-2 my-2">
-          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.06 120.06">
-            <g>              
-                <path className='dark:fill-light-orange fill-dark-orange' d="M25.25,68.24c12.18,3.75,21.28,1.54,20.32-4.93-.96-6.47-11.6-14.76-23.78-18.5-12.18-3.75-21.28-1.54-20.32,4.93.96,6.47,11.6,14.76,23.78,18.5Z" />
-                <path className='dark:fill-light-blue fill-dark-blue' d="M31.92,37.96c4.66,11.86,12.06,17.59,16.53,12.81,4.46-4.78,4.3-18.27-.36-30.13-4.66-11.86-12.06-17.59-16.53-12.81-4.46,4.78-4.3,18.27.36,30.13Z" />
-                <path className='dark:fill-light-orange fill-dark-orange' d="M59.76,24.3c-6.36,11.04-6.23,20.4.29,20.91,6.52.51,16.97-8.03,23.33-19.07s6.23-20.4-.29-20.91c-6.52-.51-16.97,8.03-23.33,19.07Z" />
-                <path className='dark:fill-light-beige fill-dark-brown' d="M87.79,37.54c-12.6,1.91-19.84,7.85-16.17,13.26,3.67,5.42,16.86,8.26,29.45,6.35,12.6-1.91,19.84-7.85,16.17-13.26-3.67-5.42-16.86-8.26-29.45-6.35Z" />
-                <path className='dark:fill-light-blue fill-dark-blue' d="M94.92,67.71c-9.35-8.66-18.5-10.62-20.45-4.37-1.95,6.25,4.05,18.33,13.4,26.99s18.5,10.62,20.45,4.37c1.95-6.25-4.05-18.33-13.4-26.99Z" />
-                <path className='dark:fill-light-orange fill-dark-orange' d="M75.78,92.1c.94-12.71-3.24-21.09-9.33-18.71-6.1,2.37-11.81,14.59-12.75,27.3-.94,12.71,3.24,21.09,9.33,18.71,6.1-2.37,11.81-14.59,12.75-27.3Z" />
-                <path className='dark:fill-light-beige fill-dark-brown' d="M44.77,92.34c10.52-7.19,14.47-15.68,8.81-18.96-5.66-3.29-18.77-.13-29.29,7.05s-14.47,15.68-8.81,18.96c5.66,3.29,18.77.13,29.29-7.05Z" />
-            </g>
-            <polygon className="fill-dark-red dark:fill-light-red" points="65.02 49.52 53.47 49.52 47.7 59.52 53.47 69.52 65.02 69.52 70.79 59.52 65.02 49.52" />
-          </svg>
-         
+          <div className="relative flex flex-row items-center gap-4 h-14  w-14 stroke-2 my-2">
+            <Image 
+              src= {theme?.theme==="light"? "/logoLight.svg":"/logoDark.svg"}
+              alt="Logo Light"
+              fill={true}
+            />
+          
         
              </div>
             
