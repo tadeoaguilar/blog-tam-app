@@ -11,7 +11,7 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-full h-screen flex flex-col items-center bg-light-beige bg-opacity-10 '>
+    <section id="HERO" className='w-full h-screen flex flex-col items-center    '>
    
 
       
