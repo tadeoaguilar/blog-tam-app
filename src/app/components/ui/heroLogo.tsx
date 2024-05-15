@@ -14,12 +14,12 @@ export const HEROLogo = () =>
     console.log(window.innerWidth)
   })
       return (
-        <div  className="m-16 h-4/5 w-4/5 flex flex-row justify-center items-center bg-light-beige bg-opacity-40  dark:bg-dark-red  drop-shadow-xl rounded-2xl ">
+        <div  className="m-16 h-4/5 w-4/5 flex flex-row justify-center items-center  drop-shadow-xl rounded-2xl px-4">
           
           <div className="  w-2/3 h-2/3    ">
-            test
+        
           </div>
-          <div className="relative z-30  w-2/3 h-2/3  border-dark-blue dark:border-light-blue  border-8 rounded">
+          <div className="relative z-30  w-2/3 h-2/3  border-dark-blue dark:border-light-blue  border-8 rounded hidden">
 
               <Image 
                 src= {widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
