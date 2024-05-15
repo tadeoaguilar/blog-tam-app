@@ -14,19 +14,19 @@ const NavBar = () => {
   return (
     <>
         
-         <div className="relative w-110/12 h-12"   >
+         <div className="relative w-4/5"   >
          <Image
           src="/BrushMenu.svg"
           alt="Brush"
-          
+          className='fill-light-primary'
           
           width={1200}
           height={48}
           />
           </div>
         
-          <nav className="  w-screen h-12 flex flex-row justify-around items-center m-2">
-              <div className="relative flex flex-row items-center  h-16  w-16 stroke-2 my-2">
+          <nav className="  w-screen  flex flex-row justify-around items-center ">
+              <div className="relative flex flex-row items-center  h-16  w-16 stroke-2 ">
                 <Image 
                   src= {theme?.theme==="light"? "/logoLight.svg":"/logoDark.svg"}
                   alt="Logo Light"
