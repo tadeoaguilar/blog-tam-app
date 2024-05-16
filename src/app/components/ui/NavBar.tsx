@@ -14,19 +14,28 @@ const NavBar = () => {
   return (
     <>
         
-         <div className="relative w-2/5"   >
-         <Image
-          src={theme?.theme==="light"? "/BrushMenu.svg":"/BrushMenuDark.svg"} 
-          alt="Brush"
-          className='fill-light-primary'
-          
-          width={1200}
-          height={48}
-          />
-          </div>
+       
+
+        <nav className="absolute  w-screen h-12 flex ">
+          <ul className=' h-full w-full 
+                          flex flex-row justify-around ml-[60%] items-center
+                          font-semibold text-lg tracking-wide
+                          text-[#C8F5F0]'>
+            <li className='underline underline-offset-4  decoration-[#F15A24]'>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
+
+        </nav>
+
+
+
+
+
         
-          <nav className=" absolute w-screen  flex flex-row justify-around items-center ">
-              <div className="relative flex flex-row items-center  h-16  w-16 stroke-2 ">
+          <nav className="hidden absolute w-screen   flex-row justify-around items-center ">
+              <div className="relative flex flex-row items-center  h-16  w-16 stroke-2">
                 <Image 
                   src= {theme?.theme==="light"? "/logoLight.svg":"/logoDark.svg"}
                   alt="Logo Light"
