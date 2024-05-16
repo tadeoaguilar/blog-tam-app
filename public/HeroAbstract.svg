@@ -351,14 +351,6 @@
         stroke: #009ed1;
       }
 
-      .cls-243 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-243, .cls-244, .cls-245 {
-        stroke-width: 0px;
-      }
-
       .cls-54 {
         stroke-dasharray: 0 0 0 0 0 0 2.6 2.6 2.6 2.6 2.6 2.6;
       }
@@ -392,8 +384,12 @@
         stroke: #d65127;
       }
 
-      .cls-244 {
+      .cls-243 {
         fill: url(#radial-gradient);
+      }
+
+      .cls-243, .cls-244, .cls-245 {
+        stroke-width: 0px;
       }
 
       .cls-58 {
@@ -490,6 +486,10 @@
       .cls-73 {
         stroke: #f2891f;
         stroke-dasharray: 0 0 0 0 0 0 2.61 2.61 2.61 2.61 2.61 2.61;
+      }
+
+      .cls-244 {
+        fill: #0d0219;
       }
 
       .cls-74 {
@@ -1355,7 +1355,7 @@
       <stop offset="1" stop-color="#00a99d" stop-opacity="0"/>
     </radialGradient>
     <symbol id="Bluedot" viewBox="0 0 2.68 2.68">
-      <circle class="cls-244" cx="1.34" cy="1.34" r="1.34"/>
+      <circle class="cls-243" cx="1.34" cy="1.34" r="1.34"/>
     </symbol>
     <radialGradient id="radial-gradient-2" cx="90.07" cy="93.77" fx="90.07" fy="93.77" r="1.09" gradientTransform="translate(-90.02 -93.75) scale(1.01)" gradientUnits="userSpaceOnUse">
       <stop offset=".08" stop-color="#fbb03b"/>
@@ -1372,13 +1372,9 @@
     <symbol id="OrangeDot" viewBox="0 0 2.2 2.2">
       <circle class="cls-245" cx="1.1" cy="1.1" r="1.1"/>
     </symbol>
-    <linearGradient id="linear-gradient" x1="11.86" y1="10.29" x2="1391.86" y2="791.82" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#441172"/>
-      <stop offset="1" stop-color="#121339"/>
-    </linearGradient>
   </defs>
   <g id="Gradient">
-    <rect class="cls-243" width="1400" height="800"/>
+    <rect class="cls-244" width="1400" height="800"/>
   </g>
   <g id="ElipsesBlue">
     <g>
