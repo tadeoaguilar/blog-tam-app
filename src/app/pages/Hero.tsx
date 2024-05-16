@@ -11,18 +11,21 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-full h-screen flex flex-col items-center    '>
+    <section id="HERO" className='w-screen h-screen flex flex-col items-center    '>
    
 
       
 
-        
-      <NavBar />
+   <HEROLogo />     
       
-      <HEROLogo />
+      
+   
 
       
-      {/*  <HeroCard />     */}
+      {/* 
+      
+      <NavBar />
+      <HeroCard />     */}
       
     </section>
     
