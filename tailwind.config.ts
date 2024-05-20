@@ -12,7 +12,7 @@ const config: Config = {
       
       "white":"#FFFFFF",
       "black":"#000000",
-
+      "grape":"#0d0219",
       "cyan":"#00FFFF",
       "orange":"#F7931E",
       "red":"#C1272D",

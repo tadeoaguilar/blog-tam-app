@@ -17,7 +17,7 @@ export const HEROLogo = () =>
         
           
           
-          <div className="abolute   w-screen h-screen bg-[#0d0219]">
+          <div className="abolute   w-screen h-screen bg-grape">
 
               <Image 
                 src= {widthCSS >650 ?"/HeroAbstract.svg": "/HeroAbstractSmall.svg"}

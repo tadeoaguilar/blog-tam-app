@@ -20,7 +20,7 @@ const NavBar = () => {
           <ul className=' h-full w-full 
                           flex flex-row justify-around sm:ml-[60%] items-center
                           font-semibold text-lg tracking-wide
-                          text-[#C8F5F0]'>
+                          text-cyan text-opacity-75'>
             <li className='underline underline-offset-4  decoration-red'>Home</li>
             <li>Service</li>
             <li>Contact</li>
