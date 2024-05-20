@@ -30,7 +30,7 @@ const HeroText = () => {
             Connect your business to the World. Discover your journey to the digital world with us.
           </li>
           <button className='bg-gradient-to-r
-             from-cyan  via-orange via-5% to-red
+             from-cyan  via-orange via-25% to-red
              
              
              
