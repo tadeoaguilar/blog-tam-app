@@ -40,8 +40,8 @@ const config: Config = {
       
     },
     screen:{
-      'sm': '599px',
-      'md': '1239px',
+      'sm': '640px',
+      'md': '800px',
       'lg': '1440px',      
     },
     extend: {
