@@ -9,14 +9,14 @@ import { ThemeContext } from "@/lib/context"; // To REFACTOR , Stateless Compone
 const HeroText = () => {
   
   const theme = useContext(ThemeContext); // To REFACTOR , Stateless Component
-  const logoCSS ="stroke-light-red "
+
   
   return (
     <>
         
        
 
-        <ul className="absolute top-[40%] w-[40%] h-12 flex
+        <ul className="absolute pt-96  w-[40%] h-12 flex
         
                        flex-col justify-center items-center">
           
