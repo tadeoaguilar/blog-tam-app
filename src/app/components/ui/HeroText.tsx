@@ -34,7 +34,13 @@ const HeroText = () => {
              
              
              
-             rounded-full h-48 w-44 py-2'>
+             rounded-full h-48 w-44 py-2
+             
+             hover:transition hover:ease-linear hover:bg-gradient-radial hover:from-red hover:to-cyan
+             '
+             onClick={()=>alert("hola Poncho")}
+             
+             >
              Welcome!
           </button>
           

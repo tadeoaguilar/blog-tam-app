@@ -1,5 +1,6 @@
 
 import { getAllPosts } from "../lib/api";
+import Capabilities from "./pages/Capabilities";
 import Hero from "./pages/Hero";
 export default function Index() {
   const allPosts = getAllPosts();
@@ -12,6 +13,7 @@ export default function Index() {
     <main >
       
       <Hero />
+      <Capabilities />
        
       
     </main>
