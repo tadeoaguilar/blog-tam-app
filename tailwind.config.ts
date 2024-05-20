@@ -9,34 +9,18 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      "light-primary": "#D92414",
-      "light-on-primary": "#FFF8F7",
-      "light-primary-container": "#D92414",
-      "light-on-primary-container": "#FFF8F7",
-      "light-on-primary-surface": "#FFF8F7",
-
-      "light-orange":"#FA5E36",
-      "light-red":"#D92414",
-      "light-brown":"#BF7534",
-      "light-beige":"#EFBE86",
-      "light-blue":"#84C1D9",
-
-      "dark-orange":"#730707",
-      "dark-red":"#73262C",
-      "dark-brown":"#8C4318",
-      "dark-beige":"#F7C08A",
-      "dark-blue":"#364A5E",
+      
       "white":"#FFFFFF",
       "black":"#000000",
 
-      "dark-primary": "#FFF8F7",
-      "dark-on-primary": "#D92414",
-      "dark-primary-container": "#D92414",
-      "dark-on-primary-container": "#D92414",
-      "dark-on-primary-surface": "#D92414",
-
+      "cyan":"#00FFFF",
+      "orange":"#F7931E",
+      "red":"#C1272D",
+      "blue":"#0071BC",
       "green-primary": "#025951",
       "green-accent": "#0CF25D"
+
+
       
     },
     screen:{

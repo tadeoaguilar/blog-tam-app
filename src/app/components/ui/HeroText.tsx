@@ -26,10 +26,10 @@ const HeroText = () => {
           <li className='text-2xl leading-normal sm:text-6xl text-center uppercase '>
             Affordable Web Services to grow everyone business
           </li>
-          <li className='text-xl my-8 sm:text-3xl text-center text-[#F15A24]'>
+          <li className='text-xl my-8 sm:text-3xl text-center text-orange'>
             Connect your business to the World. Discover your journey to the digital world with us.
           </li>
-          <button className='bg-[#19B6BD] text-2xl rounded-full h-48 w-44 '>
+          <button className='bg-cyan text-2xl rounded-full h-48 w-44 '>
              Welcome!
           </button>
           

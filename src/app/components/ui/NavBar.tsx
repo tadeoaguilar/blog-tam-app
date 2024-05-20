@@ -21,7 +21,7 @@ const NavBar = () => {
                           flex flex-row justify-around sm:ml-[60%] items-center
                           font-semibold text-lg tracking-wide
                           text-[#C8F5F0]'>
-            <li className='underline underline-offset-4  decoration-[#F15A24]'>Home</li>
+            <li className='underline underline-offset-4  decoration-red'>Home</li>
             <li>Service</li>
             <li>Contact</li>
             <li>About</li>

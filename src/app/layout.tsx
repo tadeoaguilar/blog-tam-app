@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className= {`${inter.className}  flex flex-col mx-auto bg-opacity-15 dark:bg-opacity-100  bg-light-beige  text-white dark:text-white dark:text-opacity-80`} >
+      <body className= {`${inter.className}  flex flex-col     text-white`} >
     
 
         <div className="min-h-screen">{children}</div>
