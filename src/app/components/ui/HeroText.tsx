@@ -16,28 +16,21 @@ const HeroText = () => {
         
        
 
-        <ul className="absolute pt-96 sm:w-8/12   h-12 flex
+      <ul className="absolute pt-96 sm:w-2/5   h-12 flex
         
                        flex-col justify-center items-center
                    
                        ">
           
 
-          <li className='text-2xl leading-normal sm:text-6xl text-center uppercase '>
+          <li className='text-2xl leading-normal sm:text-6xl text-center uppercase text-white'>
             Affordable Web Services to grow everyone business
           </li>
-          <li className='text-xl my-8 sm:text-3xl text-center text-orange'>
+          <li className='text-xl my-8 sm:text-3xl text-center text-cyan text-opacity-90'>
             Connect your business to the World. Discover your journey to the digital world with us.
           </li>
-          <button className='bg-gradient-to-r
-             from-cyan  via-orange via-25% to-red
+          <button className="bg-orange  text-2xl rounded-full h-48 w-44 py-1  "          
              
-             
-             
-             rounded-full h-48 w-44 py-2
-             
-             hover:transition hover:ease-linear hover:bg-gradient-radial hover:from-red hover:to-cyan
-             '
              onClick={()=>alert("hola Poncho")}
              
              >
