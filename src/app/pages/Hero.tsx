@@ -12,7 +12,7 @@ const Hero = () => {
   
   return (
     
-    <section id="HERO" className='w-screen h-screen items-center   flex flex-col justify-center  '>
+    <section id="HERO" className='w-screen h-screen items-center   flex flex-col  justify-center '>
    
 
       
@@ -20,6 +20,7 @@ const Hero = () => {
    
    
    <HEROLogo /> 
+ 
    <NavBar />
   
   <HeroText />

@@ -16,11 +16,13 @@ const HeroText = () => {
         
        
 
-      <ul className=" relative z-10  w-9/12   h-max flex
+      <ul className="relative w-9/12 z-10  h-max flex
         
                        flex-col 
                        
-                       items-center
+                       items-center justify-center
+                       border border-red
+                       
                        ">
           
 

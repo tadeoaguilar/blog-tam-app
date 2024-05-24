@@ -21,7 +21,7 @@ const NavBar = () => {
         
        
 
-        <nav className=" relative w-9/12 h-12  z-10  top-1  flex flex-row items-start justify-start mx-auto  text-cyan">
+        <nav className=" absolute w-9/12 h-12  z-10  top-1  flex flex-row items-center justify-end mx-auto  text-cyan">
           <ul className=' h-full w-max 
                           flex flex-row gap-20 items-center 
                           '>

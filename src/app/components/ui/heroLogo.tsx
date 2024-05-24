@@ -17,7 +17,7 @@ export const HEROLogo = () =>
         
           
           
-          <div className="   w-screen h-screen bg-grape ">
+          <div className=" absolute  w-screen h-screen bg-grape ">
               
               <div className=" bg-grape">
                 <Image 
