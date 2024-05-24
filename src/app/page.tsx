@@ -1,5 +1,6 @@
 
 import { getAllPosts } from "../lib/api";
+import { HEROLogoAlt } from "./components/ui/heroLogoAlt";
 import Capabilities from "./pages/Capabilities";
 import Hero from "./pages/Hero";
 export default function Index() {
@@ -14,7 +15,8 @@ export default function Index() {
       
       <Hero />
       <Capabilities />
-       
+      
+       <HEROLogoAlt/>
       
     </main>
   );

@@ -6,6 +6,11 @@ import { SVGIcon } from './SVGIcon'
 import { useState ,useContext} from 'react'
 import { ThemeContext } from "@/lib/context"; // To REFACTOR , Stateless Component
 
+interface IPropsNav {
+  type : "absolute" | "relative"
+}
+
+
 const NavBar = () => {
   
   const theme = useContext(ThemeContext); // To REFACTOR , Stateless Component
@@ -16,12 +21,11 @@ const NavBar = () => {
         
        
 
-        <nav className="absolute  w-screen h-12 flex ">
-          <ul className=' h-full w-full 
-                          flex flex-row justify-around sm:ml-[60%] items-center
-                          font-semibold text-lg tracking-wide
-                          text-cyan text-opacity-75'>
-            <li className='underline underline-offset-4  decoration-red'>Home</li>
+        <nav className=" relative w-9/12 h-12  z-10  top-1  flex flex-row items-start justify-start mx-auto  text-cyan">
+          <ul className=' h-full w-max 
+                          flex flex-row gap-20 items-center 
+                          '>
+            <li className='underline underline-offset-4  decoration-red '>Home</li>
             <li>Service</li>
             <li>Contact</li>
             <li>About</li>
