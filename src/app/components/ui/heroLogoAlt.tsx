@@ -23,7 +23,17 @@ export const HEROLogoAlt = () =>
           
 
           <div className="flex flex-col w-full h-full">
-           
+                <nav className="  w-9/12 h-12  z-10  top-1  flex flex-row items-center justify-end mx-auto  text-cyan">
+                <ul className=' h-full w-max 
+                                flex flex-row gap-20 items-center 
+                                '>
+                  <li className='underline underline-offset-4  decoration-red '>Home</li>
+                  <li>Service</li>
+                  <li>Contact</li>
+                  <li>About</li>
+                </ul>
+
+              </nav>
            <div className="relative z-10 w-full h-full   bg-grape ">
               
               <Image 

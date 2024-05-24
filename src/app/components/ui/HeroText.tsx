@@ -21,7 +21,7 @@ const HeroText = () => {
                        flex-col 
                        
                        items-center justify-center
-                       border border-red
+                   
                        
                        ">
           
