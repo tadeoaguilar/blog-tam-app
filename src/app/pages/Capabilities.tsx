@@ -1,23 +1,69 @@
 import Card from "../components/ui/Card";
 import { IPropsCard } from "../components/ui/Card";
 const HeroText = () => {
-    const dataCard: IPropsCard = {
-        props:{
-        title: "Cloud Computing",
-        titleBgColor: "cyan",
+    
+
+
+    
+    const cardData:IPropsCard[] = [
+        {title: "Cloud Computing",
+        subTitle:"Leverage the power of the cloud to grow your business",
+        titleBgColor: "blue",
+        learn:"Learn more",
+        svgFile:"NO SVG"},
+        {title: "Web Development",
+        subTitle:"Move your business to the Web, reach out to millions of customers",
+        titleBgColor: "orange",
         learn:"Learn Text",
-        svgFile:"NO SVG"
-        }
+        svgFile:"NO SVG"},
+        {title: "Data Enginering ",
+        subTitle:"Create sophisticated pipelines to connect your data",
+        titleBgColor: "red",
+        learn:"Learn Text",
+        svgFile:"NO SVG"},
+        {title: "Enterprise Performance Management",
+        subTitle:"We are specialist in implementing automated planning solutions",
+        titleBgColor: "orange",
+        learn:"Learn Text",
+        svgFile:"NO SVG"},
+        {title: "Business Inteligence",
+        subTitle:"Finf the data insights that cal help you to outpace the competitors",
+        titleBgColor: "red",
+        learn:"Learn Text",
+        svgFile:"NO SVG"},
+        {title: "Mobile Development",
+        subTitle:"Connect with mobile users through mobile applications",
+        titleBgColor: "blue",
+        learn:"Learn Text",
+        svgFile:"NO SVG"},
+    
+    ]
 
-    }
+
+
     return (
-        <section className="h-screen w-screen bg-orange bg-opacity-80 mx-auto   ">
-            <div className = "flex flex-row md:grid md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12 h-full gap-4 py-2">
-                <Card props ={dataCard.props}  />
-                <Card props ={dataCard.props}  />
-                <Card props ={dataCard.props}  />
-                <Card props ={dataCard.props}  />
+        <section className="h-max w-screen bg-orange bg-opacity-80 mx-auto   ">
+            <div className = "flex flex-col sm:grid   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12 h-max gap-4 py-2">
+                {
+                cardData.map( (item,index) =>{
 
+                    return(
+                        <Card 
+                            key = {index}
+                            title={item.title}
+                            subTitle={item.subTitle}
+                            titleBgColor={item.titleBgColor}
+                            learn={item.learn}
+                            svgFile={item.svgFile}
+                            
+                            />
+                    )
+                }
+
+
+                    
+                )
+            }
             
             </div>
             

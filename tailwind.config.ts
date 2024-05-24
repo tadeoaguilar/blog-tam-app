@@ -25,7 +25,7 @@ const config: Config = {
     },
     screen:{
       'sm': '640px',
-      'md': '800px',
+      'md': '1024px',
       'lg': '1440px',      
     },
     extend: {
