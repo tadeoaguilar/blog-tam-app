@@ -1,47 +1,27 @@
+import Card from "../components/ui/Card";
+import { IPropsCard } from "../components/ui/Card";
 const HeroText = () => {
+    const dataCard: IPropsCard = {
+        props:{
+        title: "Cloud Computing",
+        titleBgColor: "cyan",
+        learn:"Learn Text",
+        svgFile:"NO SVG"
+        }
 
+    }
     return (
-        <section className="h-screen w-screen bg-orange bg-opacity-80 mx-auto flex flex-row  justify-center ">
-            <div className="  w-10/12 flex flex-col sm:grid sm:grid-cols-4 sm:grid-rows-2  gap-2 px-2 py-2">
-            <div className="bg-grape rounded-xl w-full h-full">01</div>
-            <div className="bg-grape rounded-xl w-full h-full">01</div>
-            <div className="bg-grape rounded-xl w-full h-full">01</div>
-            <div className="bg-grape rounded-xl w-full h-full">01</div>
-            <div className="bg-grape rounded-xl w-full h-full">01</div>
+        <section className="h-screen w-screen bg-orange bg-opacity-80 mx-auto   ">
+            <div className = "flex flex-row md:grid md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12 h-full gap-4 py-2">
+                <Card props ={dataCard.props}  />
+                <Card props ={dataCard.props}  />
+                <Card props ={dataCard.props}  />
+                <Card props ={dataCard.props}  />
+
             
-            {/*     
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
             </div>
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
-            </div>
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
-            </div>
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
-            </div>
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
-            </div>
-            <div className="  w-96 h-40 flex flex-col justify-center items-center    bg-grape   rounded-md shadow-2xl">
-                <p className="text-cyan ">
-                    Text
-                </p>
-            </div>
-            */}
-            </div>
+            
+            
         </section>
 
 

@@ -17,18 +17,19 @@ export const HEROLogo = () =>
         
           
           
-          <div className="abolute   w-screen h-screen bg-grape">
+          <div className="   w-screen h-screen bg-grape ">
+              
+              <div className=" bg-grape">
+                <Image 
+                  src= {widthCSS >650 ?"/HeroAbstract.svg": "/HeroAbstractSmall.svg"}
+                  alt={widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
+                  
+                  
+                  priority={true}
+                fill={true}
 
-              <Image 
-                src= {widthCSS >650 ?"/HeroAbstract.svg": "/HeroAbstractSmall.svg"}
-                alt={widthCSS >650 ?"/Brain03Big.png": "/Brain03Small.png"}
-                className=" "
-                
-                priority={true}
-               fill={true}
-
-              />
-            
+                />
+            </div>
             
           </div>
         
