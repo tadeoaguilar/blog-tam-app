@@ -42,8 +42,8 @@ const HeroText = () => {
 
 
     return (
-        <section className="h-max w-screen bg-orange bg-opacity-80 mx-auto   ">
-            <div className = "flex flex-col sm:grid   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12 h-max gap-4 py-2">
+        <section className="h-full w-screen sm:h-screen bg-orange bg-opacity-80 mx-auto flex flex-col items-center justify-center ">
+            <div className = "flex flex-col   sm:grid   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12  gap-4 py-2 ">
                 {
                 cardData.map( (item,index) =>{
 
