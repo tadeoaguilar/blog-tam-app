@@ -26,7 +26,7 @@ const HeroText = () => {
                        ">
           
 
-          <li className='text-2xl leading-normal sm:text-6xl text-center uppercase text-white'>
+          <li className='text-2xl leading-normal md:text-6xl text-center uppercase text-white landscape:max-sm:text-red '>
             Affordable Web Services to grow everyone business
           </li>
           <li className='text-xl my-8 sm:text-3xl text-center text-cyan text-opacity-90'>

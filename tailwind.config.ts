@@ -24,9 +24,10 @@ const config: Config = {
       
     },
     screen:{
-      'sm': '640px',
+      'sm': '845px',
       'md': '1024px',
-      'lg': '1440px',      
+      'lg': '1440px',
+      'ls': {'raw': '(min-height: 300px)'}      
     },
     extend: {
       backgroundImage: {
