@@ -30,7 +30,7 @@ const HeroText = () => {
         subTitle:"Finf the data insights that cal help you to outpace the competitors",
         titleBgColor: "text-red",
         learn:"Learn Text",
-        svgFile:"/NO.SVG"},
+        svgFile:"/LogoBI.svg"},
         {title: "Mobile Development",
         subTitle:"Connect with mobile users through mobile applications",
         titleBgColor: "text-blue",
@@ -42,8 +42,8 @@ const HeroText = () => {
 
 
     return (
-        <section className="h-full w-screen sm:h-screen bg-blue bg-opacity-80 mx-auto flex flex-col items-center justify-center ">
-            <div className = "h-full grid grid-cols-1 grid-rows-6   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12  gap-4 rounded-xl my-4 drop-shadow-xl ">
+        <section className="h-full w-screen sm:h-screen bg-grape bg-opacity-100 mx-auto flex flex-col items-center justify-center ">
+            <div className = "h-full grid grid-cols-1 grid-rows-6   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12  gap-[1px]  my-4 drop-shadow-xl ">
                 {
                 cardData.map( (item,index) =>{
 
@@ -66,7 +66,6 @@ const HeroText = () => {
             }
             
             </div>
-            
             
         </section>
 
