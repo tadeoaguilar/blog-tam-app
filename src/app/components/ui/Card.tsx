@@ -17,7 +17,7 @@ const Card: React.FC<IPropsCard> = (props) => {
       <div className='flex flex-col w-5/6 mx-auto h-full py-8'>
         <p className='font-bold text-2xl text-cyan '>{props.title} </p>
         <p className='font-bold text-base pt-4'>{props.subTitle} </p>
-        <div className='relative w-full bg-grape h-full mt-2 '>
+        <div className='relative w-full  h-52 sm:full '>
         
                 <Image 
                   src= {props.svgFile}
