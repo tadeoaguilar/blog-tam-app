@@ -1,58 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1405.69 1110.51">
+<svg id="Finance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1405.69 1110.51">
   <defs>
     <linearGradient id="linear-gradient" x1="27.3" y1="550.36" x2="1393.63" y2="550.36" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f7931e"/>
-      <stop offset="0" stop-color="#ef8e1d"/>
-      <stop offset=".02" stop-color="#da811d"/>
-      <stop offset=".03" stop-color="#b76b1c"/>
-      <stop offset=".05" stop-color="#884e1b"/>
-      <stop offset=".07" stop-color="#4b281a"/>
-      <stop offset=".09" stop-color="#0d0219"/>
-      <stop offset=".11" stop-color="#251119"/>
-      <stop offset=".17" stop-color="#4b291a"/>
-      <stop offset=".22" stop-color="#6b3d1a"/>
-      <stop offset=".28" stop-color="#844c1b"/>
-      <stop offset=".34" stop-color="#96571b"/>
-      <stop offset=".4" stop-color="#a05d1b"/>
-      <stop offset=".47" stop-color="#a4601c"/>
-      <stop offset=".51" stop-color="#9f5d1b"/>
-      <stop offset=".56" stop-color="#91541b"/>
-      <stop offset=".61" stop-color="#7b461b"/>
-      <stop offset=".66" stop-color="#5b331a"/>
-      <stop offset=".71" stop-color="#331a19"/>
-      <stop offset=".75" stop-color="#0d0219"/>
-      <stop offset=".76" stop-color="#311819"/>
-      <stop offset=".77" stop-color="#5a311a"/>
-      <stop offset=".78" stop-color="#7f491b"/>
-      <stop offset=".79" stop-color="#a05d1c"/>
-      <stop offset=".8" stop-color="#bb6e1c"/>
-      <stop offset=".82" stop-color="#d17b1d"/>
-      <stop offset=".84" stop-color="#e2861d"/>
-      <stop offset=".86" stop-color="#ee8d1d"/>
-      <stop offset=".89" stop-color="#f5911d"/>
-      <stop offset=".98" stop-color="#f7931e"/>
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0" stop-color="#01fefd"/>
+      <stop offset=".02" stop-color="#2fead3"/>
+      <stop offset=".04" stop-color="#59d7ad"/>
+      <stop offset=".06" stop-color="#7fc78b"/>
+      <stop offset=".09" stop-color="#9fb96d"/>
+      <stop offset=".11" stop-color="#bbad54"/>
+      <stop offset=".14" stop-color="#d1a340"/>
+      <stop offset=".18" stop-color="#e29c30"/>
+      <stop offset=".22" stop-color="#ee9625"/>
+      <stop offset=".28" stop-color="#f5931f"/>
+      <stop offset=".44" stop-color="#f7931e"/>
+      <stop offset=".63" stop-color="#f5931f"/>
+      <stop offset=".7" stop-color="#ee9625"/>
+      <stop offset=".74" stop-color="#e29b30"/>
+      <stop offset=".78" stop-color="#d1a340"/>
+      <stop offset=".81" stop-color="#bbac54"/>
+      <stop offset=".84" stop-color="#a0b86c"/>
+      <stop offset=".87" stop-color="#7fc78a"/>
+      <stop offset=".9" stop-color="#5ad7ac"/>
+      <stop offset=".92" stop-color="#31e9d2"/>
+      <stop offset=".94" stop-color="#03fdfb"/>
+      <stop offset=".94" stop-color="aqua"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="208.37" y1="547.35" x2="1237.82" y2="547.35" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f7931e"/>
-      <stop offset=".09" stop-color="#f18f1d"/>
-      <stop offset=".21" stop-color="#e0851d"/>
-      <stop offset=".35" stop-color="#c5741c"/>
-      <stop offset=".5" stop-color="#9e5c1c"/>
-      <stop offset=".66" stop-color="#6d3d1b"/>
-      <stop offset=".83" stop-color="#321919"/>
-      <stop offset=".93" stop-color="#0d0219"/>
+      <stop offset=".04" stop-color="aqua"/>
+      <stop offset=".04" stop-color="#03fdfb"/>
+      <stop offset=".08" stop-color="#31e9d2"/>
+      <stop offset=".12" stop-color="#5ad7ac"/>
+      <stop offset=".17" stop-color="#7fc78a"/>
+      <stop offset=".22" stop-color="#a0b86c"/>
+      <stop offset=".28" stop-color="#bbac54"/>
+      <stop offset=".34" stop-color="#d1a340"/>
+      <stop offset=".41" stop-color="#e29b30"/>
+      <stop offset=".5" stop-color="#ee9625"/>
+      <stop offset=".63" stop-color="#f5931f"/>
+      <stop offset=".99" stop-color="#f7931e"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="481.73" y1="407.33" x2="661.1" y2="407.33" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c1272d"/>
-      <stop offset=".88" stop-color="#0d0219"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="1129.34" y1="244.98" x2="1308.71" y2="244.98" xlink:href="#linear-gradient-3"/>
-    <linearGradient id="linear-gradient-5" x1="188.41" y1="793.54" x2="367.78" y2="793.54" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-3" x1="208.37" y1="274.06" x2="1237.82" y2="274.06" xlink:href="#linear-gradient-2"/>
   </defs>
   <polyline points="76.19 82.41 76.19 1018.3 1344.74 1018.3" fill="none" stroke="url(#linear-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="97.77"/>
-  <polyline points="258.58 820.21 568.39 406.37 858.01 599.72 1187.6 274.5" fill="none" stroke="url(#linear-gradient-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="100.43"/>
-  <circle cx="571.42" cy="407.33" r="41.9" fill="none" stroke="url(#linear-gradient-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="95.56"/>
-  <circle cx="1219.03" cy="244.98" r="41.9" fill="none" stroke="url(#linear-gradient-4)" stroke-linecap="round" stroke-linejoin="round" stroke-width="95.56"/>
-  <circle cx="278.09" cy="793.54" r="41.9" fill="none" stroke="url(#linear-gradient-5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="95.56"/>
+  <g>
+    <polyline points="258.58 820.21 568.39 406.37 858.01 599.72 1187.6 274.5" fill="none" stroke="url(#linear-gradient-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="100.43"/>
+    <polygon points="1308.74 154.97 1206.87 393.16 1178.54 283.44 1069.23 253.67 1308.74 154.97" fill="url(#linear-gradient-3)" stroke-width="0"/>
+  </g>
 </svg>

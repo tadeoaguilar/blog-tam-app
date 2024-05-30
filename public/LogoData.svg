@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Data" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1864.73 1358.53">
   <defs>
-    <linearGradient id="linear-gradient" x1="208.11" y1="270" x2="1691.89" y2="270" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c1272d"/>
-      <stop offset=".11" stop-color="rgba(172, 34, 42, .99)" stop-opacity=".99"/>
-      <stop offset=".35" stop-color="rgba(119, 23, 36, .96)" stop-opacity=".96"/>
-      <stop offset=".68" stop-color="rgba(35, 6, 27, .91)" stop-opacity=".91"/>
-      <stop offset=".76" stop-color="#0d0219" stop-opacity=".9"/>
+    <linearGradient id="RedBlue" x1="208.11" y1="270" x2="1691.89" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0" stop-color="#0feeee"/>
+      <stop offset=".03" stop-color="#34c4c6"/>
+      <stop offset=".05" stop-color="#559ea1"/>
+      <stop offset=".08" stop-color="#737e81"/>
+      <stop offset=".1" stop-color="#8b6267"/>
+      <stop offset=".13" stop-color="#9f4c51"/>
+      <stop offset=".17" stop-color="#ae3b41"/>
+      <stop offset=".21" stop-color="#b92f35"/>
+      <stop offset=".27" stop-color="#bf282e"/>
+      <stop offset=".44" stop-color="#c1272d"/>
+      <stop offset=".63" stop-color="#bf282e"/>
+      <stop offset=".7" stop-color="#b92f35"/>
+      <stop offset=".75" stop-color="#ae3b40"/>
+      <stop offset=".79" stop-color="#9f4c51"/>
+      <stop offset=".83" stop-color="#8b6266"/>
+      <stop offset=".86" stop-color="#737d81"/>
+      <stop offset=".88" stop-color="#569ea0"/>
+      <stop offset=".91" stop-color="#34c3c5"/>
+      <stop offset=".93" stop-color="#10eced"/>
+      <stop offset=".94" stop-color="aqua"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="205.08" y1="684.1" x2="1679.68" y2="684.1" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c1272d"/>
-      <stop offset=".11" stop-color="#bb252c"/>
-      <stop offset=".25" stop-color="#aa222a"/>
-      <stop offset=".42" stop-color="#8f1c27"/>
-      <stop offset=".59" stop-color="#681423"/>
-      <stop offset=".78" stop-color="#380a1d"/>
-      <stop offset=".93" stop-color="#0d0219"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="212.7" y1="930" x2="1687.3" y2="930" xlink:href="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-4" x1="212.7" y1="1160" x2="1687.3" y2="1160" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="RedBlue-2" data-name="RedBlue" x1="205.08" y1="684.1" x2="1679.68" y2="684.1" xlink:href="#RedBlue"/>
+    <linearGradient id="RedBlue-3" data-name="RedBlue" x1="212.7" y1="930" x2="1687.3" y2="930" xlink:href="#RedBlue"/>
+    <linearGradient id="RedBlue-4" data-name="RedBlue" x1="212.7" y1="1160" x2="1687.3" y2="1160" xlink:href="#RedBlue"/>
   </defs>
-  <ellipse cx="950" cy="270" rx="681.89" ry="187.48" fill="none" stroke="url(#linear-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="120"/>
+  <ellipse cx="950" cy="270" rx="681.89" ry="187.48" fill="none" stroke="url(#RedBlue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="120"/>
   <g id="Layer_5" data-name="Layer 5">
-    <path d="M260.49,612.95c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#linear-gradient-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
-    <path d="M268.11,858.85c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#linear-gradient-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
-    <path d="M268.11,1088.85c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#linear-gradient-4)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
+    <path d="M260.49,612.95c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#RedBlue-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
+    <path d="M268.11,858.85c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#RedBlue-3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
+    <path d="M268.11,1088.85c95.58,55.97,351.56,189.12,703.43,175.85,332.69-12.55,567.14-149.05,660.36-210.34" fill="none" stroke="url(#RedBlue-4)" stroke-linecap="round" stroke-linejoin="round" stroke-width="110.81"/>
   </g>
 </svg>

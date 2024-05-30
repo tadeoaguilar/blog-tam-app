@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_8" data-name="Layer 8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1881.22 1139.03">
-  <rect x="79.67" y="76.19" width="1721.88" height="723.8" rx="5.19" ry="5.19" fill="none" stroke="#c1272d" stroke-miterlimit="10" stroke-width="40"/>
-  <circle cx="1444.63" cy="438.09" r="217.14" fill="none" stroke="#c1272d" stroke-miterlimit="10" stroke-width="40"/>
-  <line x1="1583.78" y1="281.94" x2="1449.24" y2="442.7" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-  <line x1="1449.24" y1="442.7" x2="1599.29" y2="583.57" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-  <rect x="215.61" y="220.95" width="181.7" height="434.28" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-  <rect x="728.57" y="220.95" width="181.7" height="434.28" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-  <rect x="471.83" y="359.24" width="181.7" height="299.27" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="33.21"/>
-  <line x1="191.18" y1="656.92" x2="927.34" y2="655.76" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-  <line x1="92.92" y1="737.12" x2="1787.9" y2="734.33" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+<svg id="BI" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1881.22 1139.03">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1429.24" y1="362.32" x2="1603.78" y2="362.32" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#c1272d"/>
+      <stop offset=".4" stop-color="#bf282e"/>
+      <stop offset=".54" stop-color="#b92f35"/>
+      <stop offset=".63" stop-color="#ae3b40"/>
+      <stop offset=".71" stop-color="#9f4c51"/>
+      <stop offset=".78" stop-color="#8b6266"/>
+      <stop offset=".84" stop-color="#737d81"/>
+      <stop offset=".89" stop-color="#569ea0"/>
+      <stop offset=".94" stop-color="#34c3c5"/>
+      <stop offset=".98" stop-color="#10eced"/>
+      <stop offset="1" stop-color="aqua"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="513.13" x2="1619.29" y2="513.13" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="59.67" y1="438.09" x2="1821.55" y2="438.09" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="1207.49" y1="438.09" x2="1681.77" y2="438.09" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="195.61" y1="438.09" x2="417.32" y2="438.09" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="708.57" y1="438.09" x2="930.27" y2="438.09" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="455.22" y1="508.88" x2="670.13" y2="508.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="171.18" y1="656.34" x2="947.34" y2="656.34" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="72.92" y1="735.73" x2="1807.9" y2="735.73" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="741.49" y1="960.52" x2="927.51" y2="960.52" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="680.47" y1="1094.55" x2="1200.76" y2="1094.55" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="974.73" y1="960.52" x2="1160.74" y2="960.52" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="59.02" y1="1093.81" x2="1835.87" y2="1093.81" xlink:href="#linear-gradient"/>
+  </defs>
+  <line x1="1583.78" y1="281.94" x2="1449.24" y2="442.7" fill="none" stroke="url(#linear-gradient)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+  <line x1="1449.24" y1="442.7" x2="1599.29" y2="583.57" fill="none" stroke="url(#linear-gradient-2)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+  <rect x="79.67" y="76.19" width="1721.88" height="723.8" rx="5.19" ry="5.19" fill="none" stroke="url(#linear-gradient-3)" stroke-miterlimit="10" stroke-width="40"/>
+  <circle cx="1444.63" cy="438.09" r="217.14" fill="none" stroke="url(#linear-gradient-4)" stroke-miterlimit="10" stroke-width="40"/>
+  <rect x="215.61" y="220.95" width="181.7" height="434.28" fill="none" stroke="url(#linear-gradient-5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+  <rect x="728.57" y="220.95" width="181.7" height="434.28" fill="none" stroke="url(#linear-gradient-6)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+  <rect x="471.83" y="359.24" width="181.7" height="299.27" fill="none" stroke="url(#linear-gradient-7)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="33.21"/>
+  <line x1="191.18" y1="656.92" x2="927.34" y2="655.76" fill="none" stroke="url(#linear-gradient-8)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+  <line x1="92.92" y1="737.12" x2="1787.9" y2="734.33" fill="none" stroke="url(#linear-gradient-9)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
   <g>
-    <path d="M906.85,826.48c0,148.17-64.72,268.07-144.7,268.07" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
-    <line x1="700.47" y1="1094.55" x2="1180.76" y2="1094.55" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
-    <path d="M995.38,826.48c0,148.17,64.72,268.07,144.7,268.07" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
+    <path d="M906.85,826.48c0,148.17-64.72,268.07-144.7,268.07" fill="none" stroke="url(#linear-gradient-10)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
+    <line x1="700.47" y1="1094.55" x2="1180.76" y2="1094.55" fill="none" stroke="url(#linear-gradient-11)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40"/>
+    <path d="M995.38,826.48c0,148.17,64.72,268.07,144.7,268.07" fill="none" stroke="url(#linear-gradient-12)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
   </g>
-  <line x1="79.67" y1="1092.06" x2="1815.21" y2="1095.55" fill="none" stroke="#c1272d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
+  <line x1="79.67" y1="1092.06" x2="1815.21" y2="1095.55" fill="none" stroke="url(#linear-gradient-13)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="41.31"/>
 </svg>

@@ -35,7 +35,7 @@ const HeroText = () => {
         subTitle:"Connect with mobile users through mobile applications",
         titleBgColor: "text-blue",
         learn:"Learn Text",
-        svgFile:"/NO.SVG"},
+        svgFile:"/LogoMobile.svg"},
     
     ]
 

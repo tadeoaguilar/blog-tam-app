@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1864.73 1139.03">
+  <defs>
+    <linearGradient id="linear-gradient" x1="486.05" y1="737.38" x2="880.68" y2="737.38" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#0071bc"/>
+      <stop offset=".12" stop-color="#0872b6"/>
+      <stop offset=".25" stop-color="#1f75a8"/>
+      <stop offset=".4" stop-color="#447a90"/>
+      <stop offset=".58" stop-color="#78816e"/>
+      <stop offset=".78" stop-color="#b98a45"/>
+      <stop offset=".95" stop-color="#f7931e"/>
+      <stop offset=".96" stop-color="#f19523"/>
+      <stop offset=".96" stop-color="#e09c32"/>
+      <stop offset=".96" stop-color="#c5a84b"/>
+      <stop offset=".97" stop-color="#9eb96e"/>
+      <stop offset=".97" stop-color="#6dce9a"/>
+      <stop offset=".98" stop-color="#32e8d0"/>
+      <stop offset=".98" stop-color="aqua"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="990.79" y1="397.11" x2="1385.42" y2="397.11" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="341.71" y1="569.52" x2="1523.03" y2="569.52" gradientTransform="translate(-61.04 1024.26) rotate(-56.01)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="541.7" y1="791.85" x2="663.42" y2="791.85" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <line x1="504.23" y1="474.67" x2="862.5" y2="1000.09" fill="none" stroke="url(#linear-gradient)" stroke-miterlimit="10" stroke-width="44"/>
+    <line x1="1008.97" y1="134.39" x2="1367.24" y2="659.82" fill="none" stroke="url(#linear-gradient-2)" stroke-miterlimit="10" stroke-width="44"/>
+    <rect x="614.4" y="84.16" width="635.94" height="970.71" rx="29.7" ry="29.7" transform="translate(883.41 -521.93) rotate(56.01)" fill="none" stroke="url(#linear-gradient-3)" stroke-miterlimit="10" stroke-width="44"/>
+  </g>
+  <circle cx="602.56" cy="791.85" r="40.85" fill="none" stroke="url(#linear-gradient-4)" stroke-miterlimit="10" stroke-width="40"/>
+</svg>
