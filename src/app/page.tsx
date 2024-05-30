@@ -16,7 +16,7 @@ export default function Index() {
       <Hero />
       <Capabilities />
       
-       <HEROLogoAlt/>
+ 
       
     </main>
   );
