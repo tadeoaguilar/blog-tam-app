@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 32">
   <defs>
-    <linearGradient id="linear-gradient" x1="3.81" y1="15.66" x2="92.8" y2="15.66" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="aqua"/>
-      <stop offset=".08" stop-color="#03fdfb"/>
-      <stop offset=".16" stop-color="#0ffaf2"/>
-      <stop offset=".24" stop-color="#23f3e3"/>
-      <stop offset=".32" stop-color="#3febcd"/>
-      <stop offset=".39" stop-color="#63dfb1"/>
-      <stop offset=".47" stop-color="#8fd18f"/>
-      <stop offset=".55" stop-color="#c2c167"/>
-      <stop offset=".62" stop-color="#fbb03b"/>
-      <stop offset=".67" stop-color="#f9a338"/>
-      <stop offset=".77" stop-color="#f68033"/>
-      <stop offset=".9" stop-color="#f1492b"/>
-      <stop offset="1" stop-color="#ed1c24"/>
+    <linearGradient id="linear-gradient" x1="16.73" y1="33.92" x2="84.09" y2="-5.02" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#0071bc"/>
+      <stop offset=".34" stop-color="#0079bf"/>
+      <stop offset=".4" stop-color="#0090ca"/>
+      <stop offset=".48" stop-color="#00b5dc"/>
+      <stop offset=".57" stop-color="#00e9f4"/>
+      <stop offset=".61" stop-color="aqua"/>
+      <stop offset=".75" stop-color="#00fcfe"/>
+      <stop offset=".81" stop-color="#00f5fa"/>
+      <stop offset=".85" stop-color="#00e9f4"/>
+      <stop offset=".89" stop-color="#00d7ec"/>
+      <stop offset=".92" stop-color="#00c1e1"/>
+      <stop offset=".95" stop-color="#00a4d4"/>
+      <stop offset=".98" stop-color="#0084c4"/>
+      <stop offset=".99" stop-color="#0071bc"/>
     </linearGradient>
   </defs>
   <g>
