@@ -16,12 +16,14 @@ const HeroText = () => {
         
        
 
-      <ul className="relative w-9/12 z-10  h-max flex
+      <ul className="relative w-9/12 z-10  h-full flex  sm:my-auto 
         
                        flex-col 
                        
-                       items-center justify-center
-                   
+                       items-center
+                        justify-around
+
+                        sm:justify-center
                        
                        ">
           
@@ -32,7 +34,7 @@ const HeroText = () => {
           <li className='text-xl my-8 sm:text-3xl text-center text-cyan text-opacity-90'>
             Connect your business to the World. Discover your journey to the digital world with us.
           </li>
-          <button className="bg-orange  text-2xl rounded-full  w-44 py-1  "          
+          <button className="bg-orange  text-2xl rounded-full  w-44 py-1   "          
              
              onClick={()=>alert("hola Poncho")}
              
