@@ -21,9 +21,39 @@ const NavBar = () => {
         
        
 
-        <nav className=" absolute w-9/12 h-12  z-10  top-1  flex flex-row items-center justify-end mx-auto  text-cyan">
-          <ul className=' h-full w-max 
-                          flex flex-row gap-20 items-center 
+        <nav className=" absolute w-9/12 h-12  z-10  top-1  flex flex-row  mx-auto justify-between items-center text-cyan">
+          <div className="flex flex-row h-full w-full  justify-start items-center gap-3">
+          <div className='relative h-8 w-8  '>
+          <Image 
+                src="/LogoOrion3-32x32pixels.svg"
+                alt='alt'
+                fill={true}
+              
+              />
+              
+          </div>
+          <div className='relative h-8 w-32 '>
+          <Image 
+                src="/LogoOrion3Text-32x32pixels.svg"
+                alt='alt'
+                fill={true}
+              
+              />
+              
+          </div>
+          </div>
+          <div className='sm:hidden fill-cyan'>
+          <Image 
+                src="/menu.svg"
+                alt='alt'
+                width={32}
+                height={32}
+                className='fill-green-accent'
+              
+              />
+          </div>
+          <ul className='hidden h-full w-full 
+                          sm:flex sm:flex-row items-center justify-between
                           '>
             <li className='underline underline-offset-4  decoration-red '>Home</li>
             <li>Service</li>

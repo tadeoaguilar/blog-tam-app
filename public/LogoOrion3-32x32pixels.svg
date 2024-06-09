@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="radial-gradient" cx="4.71" cy="4.71" fx="4.71" fy="4.71" r="1.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbb03b"/>
+      <stop offset=".27" stop-color="#faad3a"/>
+      <stop offset=".44" stop-color="#f9a539"/>
+      <stop offset=".57" stop-color="#f89637"/>
+      <stop offset=".69" stop-color="#f68233"/>
+      <stop offset=".79" stop-color="#f4682f"/>
+      <stop offset=".89" stop-color="#f1482a"/>
+      <stop offset=".98" stop-color="#ed2325"/>
+      <stop offset="1" stop-color="#ed1c24"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="9.4" cy="22.6" fx="9.4" fy="22.6" r="1.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset=".32" stop-color="#00e6e2"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="16.02" cy="15.98" fx="16.02" fy="15.98" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-4" cx="22.59" cy="9.41" fx="22.59" fy="9.41" r="1.9" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-5" cx="27.31" cy="27.28" fx="27.31" fy="27.28" r="1.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".1" stop-color="#edffff"/>
+      <stop offset=".3" stop-color="#c0ffff"/>
+      <stop offset=".58" stop-color="#7ff"/>
+      <stop offset=".93" stop-color="#13ffff"/>
+      <stop offset="1" stop-color="aqua"/>
+    </radialGradient>
+  </defs>
+  <circle cx="4.71" cy="4.71" r="1.9" fill="url(#radial-gradient)" stroke-width="0"/>
+  <circle cx="9.4" cy="22.6" r="1.9" fill="url(#radial-gradient-2)" stroke-width="0"/>
+  <circle cx="16.02" cy="15.98" r="1.9" fill="url(#radial-gradient-3)" stroke-width="0"/>
+  <circle cx="22.59" cy="9.41" r="1.9" fill="url(#radial-gradient-4)" stroke-width="0"/>
+  <circle cx="27.31" cy="27.28" r="1.9" fill="url(#radial-gradient-5)" stroke-width="0"/>
+</svg>
