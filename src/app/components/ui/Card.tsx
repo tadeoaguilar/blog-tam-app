@@ -13,10 +13,10 @@ export interface IPropsCard  {
 const Card: React.FC<IPropsCard> = (props) => {
 
   return (
-    <div className={"bg-grape   w-full h-full  " + props.titleBgColor}>
-      <div className='flex flex-col w-5/6 mx-auto h-full py-8'>
-        <p className='font-bold text-2xl text-cyan '>{props.title} </p>
-        <p className='font-bold text-base pt-4'>{props.subTitle} </p>
+    
+      <div className={"bg-grape flex flex-col  gap-6 mx-auto h-full w-full py-8 justify-center drop-shadow-2xl items-center "+ props.titleBgColor }  >
+        <p className='font-bold text-4xl text-cyan  pb-12 '>{props.title} </p>
+        <p className='font-bold text-xl pt-4'>{props.subTitle} </p>
         <div className='relative w-full  h-52 sm:full '>
         
                 <Image 
@@ -24,7 +24,7 @@ const Card: React.FC<IPropsCard> = (props) => {
                   alt="Card Image"
                   
                   
-                  priority={true}
+                priority={true}
                 fill={true}
 
                 />
@@ -32,7 +32,7 @@ const Card: React.FC<IPropsCard> = (props) => {
           
         
         </div>
-    </div>
+    
   )
 }
 
