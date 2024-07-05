@@ -10,17 +10,17 @@ const HeroText = () => {
         subTitle:"Leverage the power of the cloud to grow your business",
         titleBgColor: "text-blue",
         learn:"Learn more",
-        svgFile:"/LogoCloud.svg"},
+        svgFile:"/shield.svg"},
         {title: "Web Development",
         subTitle:"Move your business to the Web, reach out to millions of customers",
         titleBgColor: "text-orange",
         learn:"Learn Text",
-        svgFile:"/LogoWeb.svg"},
+        svgFile:"/WebSphere.svg"},
         {title: "Data Enginering ",
         subTitle:"Create sophisticated pipelines to connect your data",
         titleBgColor: "text-red",
         learn:"Learn Text",
-        svgFile:"/LogoData.svg"},
+        svgFile:"/data.svg"},
         {title: "Financial Solutions",
         subTitle:"We are specialist in implementing automated planning solutions",
         titleBgColor: "text-orange",
@@ -42,8 +42,8 @@ const HeroText = () => {
 
 
     return (
-        <section className="h-full w-screen sm:h-screen bg-grape bg-opacity-100 mx-auto flex flex-col items-center justify-center ">
-            <div className = "h-full grid grid-cols-1 grid-rows-6   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12  gap-[1px]  my-4 drop-shadow-xl ">
+        <section className="h-full w-screen sm:h-screen bg-grape mx-auto flex flex-col items-center justify-center ">
+            <div className = "h-full grid grid-cols-1 grid-rows-6   sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 justify-center mx-auto w-10/12  gap-8  my-4 drop-shadow-xl ">
                 {
                 cardData.map( (item,index) =>{
 
